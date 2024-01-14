@@ -13,11 +13,6 @@
 #include <string.h>
 #include <ctype.h>
 
-#include <sys/stat.h>
-#include <sys/mman.h>
-
-#include <cjson/cJSON.h>
-
 #ifndef M3U2JSON_H
 #define M3U2JSON_H
 
