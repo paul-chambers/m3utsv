@@ -2,7 +2,7 @@
 // Created by paul on 12/27/23.
 //
 
-#include "m3u2json.h"
+#include "m3upipe.h"
 
 tGlobals g;
 
