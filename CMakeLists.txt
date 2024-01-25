@@ -5,7 +5,9 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-add_executable( m3utsv m3utsv.c m3utsv.h)
+add_executable( m3utsv
+        m3utsv.c m3utsv.h
+        btree/btree.c btree/btree.h )
 
 install( TARGETS m3utsv RUNTIME DESTINATION /usr/bin )
 

@@ -13,6 +13,8 @@
 #include <string.h>
 #include <ctype.h>
 
+#include "btree/btree.h"
+
 #ifndef M3U2JSON_H
 #define M3U2JSON_H
 
