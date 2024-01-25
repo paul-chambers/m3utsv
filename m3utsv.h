@@ -14,6 +14,7 @@
 #include <ctype.h>
 
 #include "btree/btree.h"
+#include "hashmap/hashmap.h"
 
 #ifndef M3U2JSON_H
 #define M3U2JSON_H

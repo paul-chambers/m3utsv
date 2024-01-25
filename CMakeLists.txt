@@ -7,7 +7,8 @@ include_directories(.)
 
 add_executable( m3utsv
         m3utsv.c m3utsv.h
-        btree/btree.c btree/btree.h )
+        btree/btree.c btree/btree.h
+        hashmap/hashmap.c hashmap/hashmap.h)
 
 install( TARGETS m3utsv RUNTIME DESTINATION /usr/bin )
 

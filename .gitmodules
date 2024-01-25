@@ -1,3 +1,6 @@
 [submodule "btree"]
 	path = btree
 	url = https://github.com/paul-chambers/btree
+[submodule "hashmap"]
+	path = hashmap
+	url = https://github.com/paul-chambers/hashmap
