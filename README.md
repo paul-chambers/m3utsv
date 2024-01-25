@@ -54,11 +54,12 @@ directly from Gracenote. See the link above for more information.
 
 ## How does it do that?
 
-This tool is a cousin of the [m3upipe](https://github.com/Channels-DVR-Goodies/m3upipe) tool, and the import side works in much the same way.
+This tool is a cousin of the [m3upipe](https://github.com/Channels-DVR-Goodies/m3upipe) tool,
+and the import side works in much the same way.
 See https://github.com/Channels-DVR-Goodies/m3upipe for more information.
 
-It can accept the output of [m3upipe](https://github.com/Channels-DVR-Goodies/m3upipe) directly, so you can use it to trim the list of
-channels in your `tsv` file down to the ones you care about.
+It can accept the output of [m3upipe](https://github.com/Channels-DVR-Goodies/m3upipe) directly,
+so you can use it to trim the list of channels in your `tsv` file down to the ones you care about.
 
 After importing the updated M3U file and merging it with the existing `tsv` file, it then
 outputs the updated M3U file.

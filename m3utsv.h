@@ -16,6 +16,8 @@
 #ifndef M3U2JSON_H
 #define M3U2JSON_H
 
+typedef unsigned long tHash;
+
 typedef struct {
     struct {
         pid_t   pid;
@@ -24,5 +26,6 @@ typedef struct {
 } tGlobals;
 
 extern tGlobals g;
+
 
 #endif //M3U2JSON_H
